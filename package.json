@@ -1,0 +1,38 @@
+{
+  "name": "ontodia-javascript-example",
+  "version": "1.0.0",
+  "description": "Ontodia library embedding example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --port 5000 --host 0.0.0.0 --history-api-fallback"
+  },
+  "dependencies": {
+    "ontodia": "",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "whatwg-fetch": "^2.0.2"
+  },
+  "devDependencies": {
+    "source-map-loader": "^0.1.6",    
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ontodia-org/ontodia-javascript-example.git"
+  },
+  "keywords": [
+    "ontodia",
+    "graph",
+    "visualization",
+    "OWL",
+    "example"
+  ],
+  "author": "Yury Emelyanov",
+  "license": "LGPL-2.1",
+  "bugs": {
+    "url": "https://github.com/ontodia-org/ontodia-javascript-example/issues"
+  },
+  "homepage": "https://github.com/ontodia-org/ontodia-javascript-example#readme"
+}
